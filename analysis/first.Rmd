@@ -1,0 +1,16 @@
+---
+title: "first"
+author: "XSun"
+date: "2020-03-23"
+output: workflowr::wflow_html
+editor_options:
+  chunk_output_type: console
+---
+
+## Introduction
+
+```{r}
+a <- seq(1,100,by=2)
+hist(a)
+```
+
